@@ -2,6 +2,7 @@
 Move the empty tile to bring numbers in order
 
 (Follow me on github if it's helpful for more projects in future.)
+(Ideal for learning AI ```Artificial Intelligence```)
 
 ## How to run in your local?
  -> DOWNLOAD and UNZIP the file.  
