@@ -16,8 +16,8 @@ def swap_central_item_with_neg_one(items):
     j = len(items)//2 - 1
     items[i], items[j] = items[j], items[i]
 
-n = 3
-nums = [x for x in range(-1,9)]
+n = 3 
+nums = [x for x in range(-1, n*n)]
 shuffle(nums)
 swap_central_item_with_neg_one(nums)
 board = []
