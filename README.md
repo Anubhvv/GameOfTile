@@ -1,5 +1,7 @@
-# GameOfTile
-move the empty tile to bring numbers in order
+# Game Of Tile (GoT)
+Move the empty tile to bring numbers in order
+
+(Follow me on github if it's helpful for more projects in future.)
 
 ## How to run in your local?
  -> DOWNLOAD and UNZIP the file.  
