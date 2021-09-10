@@ -14,3 +14,10 @@ Move the empty tile to bring numbers in order
  ## SCREENSHOT
 ![image](https://user-images.githubusercontent.com/68989156/132158808-923bed93-d50b-47bc-b567-d2b480e63066.png)
 
+## How to change Tile Color?
+-- visit this site: https://www.flaticon.com/search?word=square&type=icon and download png image of your choice   (Name it TILE.png)
+
+-- Paste it in the same folder where tileGame.py is stored in.  
+
+-- Run pyGame.py again
+
