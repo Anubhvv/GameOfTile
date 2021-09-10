@@ -19,5 +19,5 @@ Move the empty tile to bring numbers in order
 
 -- Paste it in the same folder where tileGame.py is stored in (Delete the old TILE.png) 
 
--- Run pyGame.py again
+-- Run tileGame.py again
 
