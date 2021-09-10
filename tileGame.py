@@ -1,5 +1,6 @@
 import pygame 
 import os
+from random import shuffle
 
 pygame.init()
 
@@ -9,11 +10,22 @@ w,h = 218,218
 gameDisplay = pygame.display.set_mode((w,h))
 pygame.display.set_caption("GoT")
 
+# swaps the central item in the list with -1
+def swap_central_item_with_neg_one(items):
+    i = items.index(-1)
+    j = len(items)//2 - 1
+    items[i], items[j] = items[j], items[i]
 
-board=[[7,6,1],[2,-1,4],[3,5,0]]
+n = 3 
+nums = [x for x in range(-1, n*n)]
+shuffle(nums)
+swap_central_item_with_neg_one(nums)
+board = []
+for i in range(0, n*n, n):
+    board.append(nums[i : i+n])
+
 blankX=1 #empty tile coordinates
 blankY=1
-n=3
 
 application_path = os.path.dirname(__file__)
 application_path=application_path.replace('\\','/')
